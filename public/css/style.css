@@ -695,16 +695,10 @@ hr{
     }
     
     .home .home-img::after{
-    content: '';
-    position: absolute;
-    height: 80px;
-    border-bottom: 10px solid var(--skin-color);
-    border-right: 10px solid var(--skin-color);
-    width: 80px;
-    right: 20px;
-    bottom: 150px;
+    display:none;
     }
-    
+	.home .home-img::before{
+	display:none;}
     .home .home-img img{
         
         height: 250px;
